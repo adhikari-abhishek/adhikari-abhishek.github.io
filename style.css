@@ -1,0 +1,131 @@
+.site-logo{
+	padding: 10px;
+	background-color: #fff;
+	height: 100px;
+	display: flex;
+	padding: 20px ;
+	align-items: center;
+
+}
+.topnav{
+	
+	padding-right: 4;
+	padding-left: 4;
+	padding-bottom: 4px;
+	margin-left: 500px;
+	color: black;
+	size: 100px;
+	float: left;
+
+}
+a{
+	text-decoration: none;
+	size: 20px;
+	color: black;
+	float: left;
+	align-items: left;
+	padding-left: 10px;
+}
+a:hover {
+	background-color: green;
+	text-underline-position: under;
+	text-decoration: line-through;
+
+}
+
+
+  .box{
+  	background-color: pink;
+  	padding: 100px;
+  	
+  	height: 360px;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	margin-right: 0px;
+  	margin-left: 0px;
+
+  	background-image: url(consulting.jpeg);
+  }
+  .box h1{
+  	color: lightgreen;
+  	padding: 20px;
+  	text-align: left;
+  	margin-top: -50px;
+  	font-size: 70px;
+  	font-family: serif;
+  	
+
+  }
+   .box p{
+  	size: 400%;
+  	color: black;
+  	padding: 5px
+
+  }
+
+  .Service {
+  	text-align: center;
+  }
+
+  .Service h1 {
+  	
+  	
+  	color: red;
+  	text-size: 50px;
+  	font-size: 50px;
+  	margin-top: 60px;
+  }
+  .Service p {
+  	font-size: 30px;
+  }
+
+  /* THree image container*/
+  .column {
+  	float: left;
+  	width: 33.33;
+  	padding: 40px;
+  }
+/* Clear float after image Container */
+
+.row: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
+  .row {
+  	display: flex;
+  	margin: 60px;
+  }
+.column {
+	flex: 25%;
+	padding: 5px;
+
+}
+.row img {
+	height: 150px;
+	width: 280px;
+	padding: 5px;
+}
+
+
+  footer{
+	clear: both;
+	background-color: #795c32;
+	text-align: center;
+
+
+	padding: 40px 15px 20px 20px;
+
+}
+h6{
+	font-size: 30px;
+	color: ghostwhite;
+	margin: 10px;
+}
+p5{
+	font-size: 20px;
+	color: whitesmoke;
+}
+p6 {
+	color: white;
+}
